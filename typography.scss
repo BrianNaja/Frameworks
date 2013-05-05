@@ -1,0 +1,44 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #484848;
+}
+
+textarea {/*Allow only vertical resizing of textareas.*/
+    resize: vertical;
+}
+
+body {  /* 1em is equal to 16px */
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+h1 {
+	font-size: 2em; 
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+ul, ol, p {
+	font-size: 1em;
+    line-height: 1.4;
+}
+
+li {
+	margin-left: .125em;
+}
+
+a {
+    color: #397eff;
+    text-decoration: none;
+}
+
+blockquote {
+	color: #838383;
+	border-left: 2px solid #838383;
+	padding-left:  1em;
+}
